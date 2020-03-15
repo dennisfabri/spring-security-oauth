@@ -77,23 +77,17 @@
 
 
 	<modules>
-		<module>oauth-resource-server</module>
-
-		<module>clients-angularjs/oauth-ui-implicit</module>
-		<module>clients-angularjs/oauth-ui-password</module>
-        
-        <module>clients-thymeleaf/oauth-ui-authorization-code-thymeleaf</module>
-        <module>clients-SPA/clients-js-only-react</module>
-        <module>clients-SPA/oauth-resource-server-auth0</module>
+		<module>oauth-resource-server-2</module>
+		<module>oauth-resource-server-1</module>
 
 		<module>oauth-authorization-server</module>
-        <module>oauth-zuul-gateway</module>
 		
-		<module>oauth-jws-jwk\oauth-authorization-server-jws-jwk</module>
-		<module>oauth-jws-jwk\oauth-resource-server-jws-jwk</module>
-
 		<!-- commented out because these don't build on Jenkins -->
-		<!-- <module>clients-angular/oauth-ui-authorization-code-angular</module> -->
+		<!-- 
+		  <module>clients-angular/oauth-ui-authorization-code-angular</module>
+		  <module>clients-angular/oauth-ui-implicit-angular</module> 
+		  <module>clients-angular/oauth-ui-password-angular</module> 
+		-->
 	</modules>
 
 	<profiles>
